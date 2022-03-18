@@ -9,13 +9,16 @@ bool Guess(int number) {
 		if (target = -1){
 			target = rand() % 100 + 1;
 		}
-		if (number == target)
+		if (number == target) {
+			std::cout << "Correct!!";
+			target = -1;
 			return true;
-		return false
+		}
+		else std::cout << "Wrong" << std::endl;
+		return false;
 
 	
-	
-};
+}
 	
 
 int main() {

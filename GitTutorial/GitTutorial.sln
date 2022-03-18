@@ -5,12 +5,18 @@ VisualStudioVersion = 15.0.28307.1831
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitTutorial", "GitTutorial\GitTutorial.vcxproj", "{525D5C84-EE96-4C72-B540-A66344C324F4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "..\..\windowTutorial\game4.10\game.vcxproj", "{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+		UnitTest|x64 = UnitTest|x64
+		UnitTest|x86 = UnitTest|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{525D5C84-EE96-4C72-B540-A66344C324F4}.Debug|x64.ActiveCfg = Debug|x64
@@ -21,6 +27,26 @@ Global
 		{525D5C84-EE96-4C72-B540-A66344C324F4}.Release|x64.Build.0 = Release|x64
 		{525D5C84-EE96-4C72-B540-A66344C324F4}.Release|x86.ActiveCfg = Release|Win32
 		{525D5C84-EE96-4C72-B540-A66344C324F4}.Release|x86.Build.0 = Release|Win32
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.Template|x64.ActiveCfg = Release|x64
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.Template|x64.Build.0 = Release|x64
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.Template|x86.ActiveCfg = Release|Win32
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.Template|x86.Build.0 = Release|Win32
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.UnitTest|x64.ActiveCfg = Release|x64
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.UnitTest|x64.Build.0 = Release|x64
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.UnitTest|x86.ActiveCfg = Release|Win32
+		{525D5C84-EE96-4C72-B540-A66344C324F4}.UnitTest|x86.Build.0 = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Debug|x64.ActiveCfg = Debug|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Debug|x86.Build.0 = Debug|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Release|x64.ActiveCfg = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Release|x86.ActiveCfg = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Release|x86.Build.0 = Release|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Template|x64.ActiveCfg = Template|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Template|x86.ActiveCfg = Template|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.Template|x86.Build.0 = Template|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.UnitTest|x64.ActiveCfg = UnitTest|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.UnitTest|x86.ActiveCfg = UnitTest|Win32
+		{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}.UnitTest|x86.Build.0 = UnitTest|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
